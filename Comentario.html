@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Comentario.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Deja tu comentario y valoración</h1>
+        <form class="form" id="form">
+          <input type="text" class="input" id="name" placeholder="Nombre" required>
+          <textarea class="input textarea" id="comment" placeholder="Comentario" required></textarea>
+          <div class="rating" id="rating">
+            <div class="star" data-value="1"></div>
+            <div class="star" data-value="2"></div>
+            <div class="star" data-value="3"></div>
+            <div class="star" data-value="4"></div>
+            <div class="star" data-value="5"></div>
+          </div>
+          <input type="submit" class="button" id="submit" value="Enviar" disabled>
+        </form>
+        <div class="comments" id="comments">
+       
+        </div>
+      </div>
+  <script type="text/javascript", src="Comentario.js"></script>
+</body>
+</html>
